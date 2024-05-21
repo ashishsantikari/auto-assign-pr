@@ -1,0 +1,15 @@
+{
+    "name": "auto-assign-action",
+    "version": "0.0.1",
+    "author": "Ashish Santikari<hi@ashishsantikari.info>",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@octokit/rest": "^18.12.0",
+        "@types/node": "^20.12.12",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.5"
+    }
+}

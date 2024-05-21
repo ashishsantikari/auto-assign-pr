@@ -1,0 +1,18 @@
+name: 'Auto-Assign Pull Request'
+description: 'Automatically assigns a pull request to a team member using different algorithms'
+author: 'Your Name'
+branding:
+  icon: 'check-circle'
+  color: 'green'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    required: true
+  TEAM_SLUG:
+    description: 'The slug of the team to assign PRs to'
+    required: true
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
